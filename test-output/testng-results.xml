@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gmail" duration-ms="28835" started-at="2016-10-14T12:16:16Z" finished-at="2016-10-14T12:16:45Z">
+    <groups>
+    </groups>
+    <test name="gmailLogin" duration-ms="28835" started-at="2016-10-14T12:16:16Z" finished-at="2016-10-14T12:16:45Z">
+      <class name="com.gmail.testcases.GmailLoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmail.testcases.GmailLoginPage@7c16905e]" name="setup" is-config="true" duration-ms="3682" started-at="2016-10-14T17:46:16Z" finished-at="2016-10-14T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestHome()[pri:0, instance:com.gmail.testcases.GmailLoginPage@7c16905e]" name="TestHome" duration-ms="18122" started-at="2016-10-14T17:46:20Z" finished-at="2016-10-14T17:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHome -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailLoginPage@7c16905e]" name="cleanup" is-config="true" duration-ms="7001" started-at="2016-10-14T17:46:38Z" finished-at="2016-10-14T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailLoginPage@7c16905e]" name="verifyResult" is-config="true" duration-ms="1" started-at="2016-10-14T17:46:45Z" finished-at="2016-10-14T17:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestHome status=SUCCESS method=GmailLoginPage.TestHome()[pri:0, instance:com.gmail.testcases.GmailLoginPage@7c16905e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+      </class> <!-- com.gmail.testcases.GmailLoginPage -->
+    </test> <!-- gmailLogin -->
+  </suite> <!-- gmail -->
+</testng-results>
